@@ -1,0 +1,27 @@
+{
+  "name": "Car NFT",
+  "description": "This is car NFT #1",
+  "image": "https://ipfs.io/ipfs/QmfKE1FC8aZ6J6pwRhfjfAGazeLMzm5ev3xk3bvMDPgJJ5",
+  "attributes": [
+    {
+      "trait_type": "Speed",
+      "value": 6,
+      "max_value": 10
+    },
+    {
+      "trait_type": "Control",
+      "value": 9,
+      "max_value": 10
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 8,
+      "max_value": 10
+    },
+    {
+      "trait_type": "Nitro",
+      "value": 10,
+      "max_value": 10
+    }
+  ]
+}

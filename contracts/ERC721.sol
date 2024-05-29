@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNKNOWN 
-pragma solidity ^0.8.2;
+pragma solidity ^0.8.20;
 
 contract ERC721 {
     event Transfer(address indexed _from, address indexed _to, uint256 indexed _tokenId);

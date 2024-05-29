@@ -1,6 +1,21 @@
-require("@nomicfoundation/hardhat-toolbox");
-
-/** @type import('hardhat/config').HardhatUserConfig */
+require("@nomiclabs/hardhat-ethers");
 module.exports = {
-  solidity: "0.8.24",
-};
+  defaultNetwork: "matic",
+  networks: {
+    hardhat: {
+    },
+    matic: {
+      url: "https://rpc-amoy.polygon.technology",
+      accounts: [process.env.PRIVATE_KEY]
+    }
+  },
+  solidity: {
+    version: "0.8.20",
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 200
+      }
+    }
+  },
+}

@@ -1,9 +1,8 @@
 // SPDX-License-Identifier: UNKNOWN 
-pragma solidity ^0.8.2;
-
+pragma solidity ^0.8.20;
 import "./ERC721.sol";
 
-contract QuanIT is ERC721 {
+contract IPT is ERC721 {
     string public name; // ERC721 metadata
     string public symbol; // ERC721 metadata
 
