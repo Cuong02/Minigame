@@ -1,4 +1,6 @@
 require("@nomiclabs/hardhat-ethers");
+require("dotenv").config
+const privateKey = "69e6bab0dbe872a7aa2bb79639d93de6c3fb1dbdb0ebf0a39e941ed6e5c9992d";
 module.exports = {
   defaultNetwork: "matic",
   networks: {
@@ -6,7 +8,7 @@ module.exports = {
     },
     matic: {
       url: "https://rpc-amoy.polygon.technology",
-      accounts: [process.env.PRIVATE_KEY]
+      accounts: [privateKey]
     }
   },
   solidity: {

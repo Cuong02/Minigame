@@ -22,6 +22,24 @@
       "trait_type": "Nitro",
       "value": 10,
       "max_value": 10
+    },
+    {
+      "display_type": "boot_number",
+      "trait_type": "Speed",
+      "value": 1
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    },
+    {
+      "trait_type": "Original",
+      "value": "True"
+    },
+    {
+      "trait_type": "Upgradable",
+      "value": "True"
     }
   ]
 }

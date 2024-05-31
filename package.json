@@ -2,6 +2,7 @@
   "name": "hardhat-project",
   "dependencies": {
     "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.8.3",
     "dotenv": "^10.0.0",
     "hardhat": "^2.7.0",
     "solc": "^0.8.20"
