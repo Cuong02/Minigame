@@ -1,9 +1,14 @@
-# NFT Project
+# Minigame Blockchain
+to run the app
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+`npm install or yarn`
+
+`cp .env.example .env`
+
+### Deploy file minigame.sol into folder /contracts https://remix.ethereum.org/
+
+### Change variables in file .env and variable abi in file index.js
+
+then
+
+`node index.js`
